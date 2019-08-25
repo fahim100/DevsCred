@@ -1,0 +1,915 @@
+.hero-section{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  // background: linear-gradient(-140.72deg, #5D38F9 10.81%, #973FFF 94.71%);
+  // background: linear-gradient(223.16deg, #5D38F9 16.69%, #835DFF 86.93%);
+  background: linear-gradient(223.16deg, rgba(89, 56, 249, 0.96) 16.69%, rgba(131, 93, 255, 0.96) 86.93%);
+  .hero-background-pattern{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    svg{
+      .pattern-cir{
+        position: relative;
+        animation: blink 3s infinite linear;
+        transform-origin: center center;
+      }
+    }
+  }
+  .hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 1;
+    h3{
+      font-size: 70px;
+      line-height: 82px;
+      color: #FFFFFF;
+      margin: 0 0 50px 0;
+      font-family: $secondary-font;
+    }
+    p{
+      font-size: 20px;
+      line-height: 24px;
+      color: #FFFFFF;
+      margin: 0 0 80px 0;
+      font-family: $secondary-font;
+    }
+    .hero-button{
+      display: flex;
+      justify-content: center;
+      a{
+        display: flex;
+        background: #FF719D;
+        border: 1px solid transparent;
+        align-items: center;
+        box-shadow: 0px 22px 24px rgba(0, 0, 0, 0.1);
+        color: $white;
+        border-radius: 3px;
+        text-transform: capitalize;
+        text-decoration: none;
+        padding: 15px 30px;
+        font-size: 16px;
+        letter-spacing: .5px;
+        transition: all .3s ease;
+        svg{
+          margin-right: 20px;
+        }
+        &:hover{
+          background: transparent;
+          border: 1px solid #FF719D;
+        }
+      }
+    }
+  }
+  .hero-background{
+    position: absolute;
+    background: #FFFFFF;
+    height: 300px;
+    width: 100%;
+    bottom: -150px;
+    left: 0;
+    svg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      // path{
+      //   fill: #FFFFFF;
+      //   opacity: .5;
+      // }
+    }
+    // bottom: 0;
+    // left: 0;
+    // img{
+    //   position: absolute;
+    //   width: 100%;
+    //   height: 100%;
+    // }
+    // svg{
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   // path{
+    //     width: 100%;
+    //     height: 100%;
+    //   // }
+    // }
+  }
+}
+// @keyframes blink{
+//   0%{
+//     transform: scale(0);
+//   }
+//   50%{
+//     transform: scale(1);
+//   }
+//   100%{
+//     transform: scale(0);
+//   }
+// }
+
+// /* Group 24 */
+
+// position: absolute;
+// left: -0.06%;
+// right: -0.06%;
+// top: 0%;
+// bottom: 91.21%;
+
+
+
+// /* Group 7 */
+
+// position: absolute;
+// left: -0.06%;
+// right: -0.06%;
+// top: 0%;
+// bottom: 91.21%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: -0.06%;
+// right: -0.04%;
+// top: 0%;
+// bottom: 91.27%;
+
+// background: linear-gradient(140.72deg, #5D38F9 10.81%, #973FFF 94.71%);
+// mix-blend-mode: normal;
+// opacity: 0.48;
+
+
+// /* Path Copy */
+
+// position: absolute;
+// left: -0.06%;
+// right: -0.06%;
+// top: 0%;
+// bottom: 91.21%;
+
+// background: linear-gradient(219.8deg, #5D38F9 18.71%, #973FFF 87.37%);
+// mix-blend-mode: normal;
+// opacity: 0.48;
+
+
+// /* Path Copy 2 */
+
+// position: absolute;
+// left: -0.06%;
+// right: -0.04%;
+// top: 0%;
+// bottom: 91.29%;
+
+// background: linear-gradient(140.78deg, #5D38F9 10.81%, #973FFF 94.71%);
+// mix-blend-mode: normal;
+// opacity: 0.48;
+
+
+// /* Path Copy 3 */
+
+// position: absolute;
+// left: -0.06%;
+// right: -0.04%;
+// top: 0%;
+// bottom: 91.48%;
+
+// background: linear-gradient(223.16deg, #3411FF 16.69%, #835DFF 86.93%);
+// mix-blend-mode: normal;
+// opacity: 0.48;
+
+
+// /* Group 13 */
+
+// position: absolute;
+// left: 8.81%;
+// right: 8.88%;
+// top: 1.42%;
+// bottom: 92.82%;
+
+// mix-blend-mode: normal;
+// opacity: 0.47;
+
+
+// /* Rectangle */
+
+// position: absolute;
+// left: 15.57%;
+// right: 83.81%;
+// top: 1.6%;
+// bottom: 98.3%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+// transform: rotate(45deg);
+
+
+// /* Rectangle Copy 17 */
+
+// position: absolute;
+// left: 28.75%;
+// right: 70.62%;
+// top: 4.28%;
+// bottom: 95.62%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+// transform: rotate(45deg);
+
+
+// /* Rectangle Copy 18 */
+
+// position: absolute;
+// left: 60.07%;
+// right: 39.31%;
+// top: 7.04%;
+// bottom: 92.86%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+// transform: rotate(45deg);
+
+
+// /* Rectangle Copy 10 */
+
+// position: absolute;
+// left: 26.5%;
+// right: 73.06%;
+// top: 2.95%;
+// bottom: 96.98%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+// transform: rotate(45deg);
+
+
+// /* Oval */
+
+// position: absolute;
+// left: 8.81%;
+// right: 90.25%;
+// top: 2.87%;
+// bottom: 96.98%;
+
+// background: #FFFFFF;
+// mix-blend-mode: normal;
+// opacity: 0.46;
+
+
+// /* Oval Copy 15 */
+
+// position: absolute;
+// left: 16%;
+// right: 83.38%;
+// top: 4.1%;
+// bottom: 95.8%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+
+
+// /* Oval Copy 17 */
+
+// position: absolute;
+// left: 79.12%;
+// right: 20.25%;
+// top: 1.64%;
+// bottom: 98.26%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+
+
+// /* Oval Copy 10 */
+
+// position: absolute;
+// left: 90.44%;
+// right: 8.88%;
+// top: 2.94%;
+// bottom: 96.95%;
+
+// background: #FFFFFF;
+// mix-blend-mode: normal;
+// opacity: 0.46;
+
+
+// /* Oval Copy 11 */
+
+// position: absolute;
+// left: 20.44%;
+// right: 78.94%;
+// top: 5.51%;
+// bottom: 94.39%;
+
+// background: #FFFFFF;
+// mix-blend-mode: normal;
+// opacity: 0.46;
+
+
+// /* Oval Copy 12 */
+
+// position: absolute;
+// left: 33.75%;
+// right: 65.62%;
+// top: 1.62%;
+// bottom: 98.28%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+
+
+// /* Oval Copy 13 */
+
+// position: absolute;
+// left: 85.62%;
+// right: 13.44%;
+// top: 5.61%;
+// bottom: 94.24%;
+
+// background: #FFFFFF;
+// mix-blend-mode: normal;
+// opacity: 0.46;
+
+
+// /* Oval Copy 14 */
+
+// position: absolute;
+// left: 80.12%;
+// right: 18.94%;
+// top: 3.56%;
+// bottom: 96.29%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+
+
+// /* Oval Copy 4 */
+
+// position: absolute;
+// left: 73.75%;
+// right: 25.62%;
+// top: 5.14%;
+// bottom: 94.76%;
+
+// background: #FFFFFF;
+// mix-blend-mode: normal;
+// opacity: 0.46;
+
+
+// /* Oval Copy 16 */
+
+// position: absolute;
+// left: 44.5%;
+// right: 54.88%;
+// top: 6.51%;
+// bottom: 93.39%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+
+
+// /* Oval Copy 9 */
+
+// position: absolute;
+// left: 59.25%;
+// right: 40.38%;
+// top: 2.37%;
+// bottom: 97.57%;
+
+// background: #FFFFFF;
+// mix-blend-mode: normal;
+// opacity: 0.46;
+
+
+// /* Oval Copy 19 */
+
+// position: absolute;
+// left: 11.81%;
+// right: 87.81%;
+// top: 5.01%;
+// bottom: 94.93%;
+
+// background: #FFFFFF;
+// mix-blend-mode: normal;
+// opacity: 0.46;
+
+
+// /* Oval Copy 18 */
+
+// position: absolute;
+// left: 51.56%;
+// right: 48.06%;
+// top: 1.42%;
+// bottom: 98.52%;
+
+// background: rgba(255, 255, 255, 0.0001);
+// mix-blend-mode: normal;
+// opacity: 0.37;
+// border: 2px solid #FFFFFF;
+// box-sizing: border-box;
+
+
+// /* Group 21 */
+
+// position: absolute;
+// left: 1.81%;
+// right: 84.56%;
+// top: 0.3%;
+// bottom: 99.27%;
+
+
+
+// /* Fill 1 */
+
+// position: absolute;
+// left: 1.81%;
+// right: 94.75%;
+// top: 0.34%;
+// bottom: 99.3%;
+
+// background: #FFFFFF;
+
+
+// /* Path */
+
+// position: absolute;
+// left: 1.88%;
+// right: 97.75%;
+// top: 0.58%;
+// bottom: 99.38%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: 2.19%;
+// right: 97.56%;
+// top: 0.34%;
+// bottom: 99.62%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: 3.62%;
+// right: 95.44%;
+// top: 0.44%;
+// bottom: 99.4%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: 1.81%;
+// right: 94.75%;
+// top: 0.34%;
+// bottom: 99.3%;
+
+
+
+// /* DevsCred */
+
+// position: absolute;
+// height: 43px;
+// left: 6%;
+// right: 84.56%;
+// top: calc(50% - 43px/2 - 4948.5px);
+
+// font-family: SF UI Display;
+// font-style: normal;
+// font-weight: 300;
+// font-size: 36px;
+// line-height: 43px;
+// /* identical to box height */
+// text-align: center;
+
+// color: #FFFFFF;
+
+
+
+// /* Marketplace For Word */
+
+// position: absolute;
+// height: 164px;
+// left: 28.5%;
+// right: 28.5%;
+// top: calc(50% - 164px/2 - 4710px);
+
+// font-family: HelveticaNeue;
+// font-style: normal;
+// font-weight: 300;
+// font-size: 70px;
+// line-height: 82px;
+// text-align: center;
+
+// color: #FFFFFF;
+
+
+
+// /* We make WordPress Be */
+
+// position: absolute;
+// height: 24px;
+// left: 34.38%;
+// right: 34.5%;
+// top: calc(50% - 24px/2 - 4579px);
+
+// font-family: SF UI Display;
+// font-style: normal;
+// font-weight: normal;
+// font-size: 20px;
+// line-height: 24px;
+// /* identical to box height */
+// text-align: center;
+
+// color: #FFFFFF;
+
+
+
+// /* Group 6 */
+
+// position: absolute;
+// left: 33.44%;
+// right: 33.44%;
+// top: 5.14%;
+// bottom: 94.26%;
+
+
+
+// /* Plugins */
+
+// position: absolute;
+// left: 33.44%;
+// right: 50.94%;
+// top: 5.14%;
+// bottom: 94.26%;
+
+// box-shadow: 0px 22px 24px rgba(0, 0, 0, 0.1);
+
+
+// /* Rectangle */
+
+// position: absolute;
+// left: 33.44%;
+// right: 50.94%;
+// top: 5.14%;
+// bottom: 94.26%;
+
+// border: 80px solid #FF719D;
+// box-sizing: border-box;
+// border-radius: 3px;
+
+
+// /* Plugins */
+
+// position: absolute;
+// height: 23px;
+// left: 40.16%;
+// right: 55.66%;
+// top: calc(50% - 23px/2 - 4456.5px);
+
+// font-family: SF UI Display;
+// font-style: normal;
+// font-weight: 600;
+// font-size: 19px;
+// line-height: 23px;
+// /* identical to box height */
+// text-align: center;
+// letter-spacing: 0.5px;
+
+// color: #FFFFFF;
+
+
+
+// /* Plug */
+
+// position: absolute;
+// left: 37.25%;
+// right: 61.31%;
+// top: 5.3%;
+// bottom: 94.42%;
+
+
+
+// /* Shape */
+
+// position: absolute;
+// left: 37.25%;
+// right: 61.74%;
+// top: 5.36%;
+// bottom: 94.5%;
+
+// background: #FFFFFF;
+
+
+// /* Path */
+
+// position: absolute;
+// left: 37.25%;
+// right: 61.74%;
+// top: 5.36%;
+// bottom: 94.5%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: 37.39%;
+// right: 61.89%;
+// top: 5.38%;
+// bottom: 94.53%;
+
+
+
+// /* Shape */
+
+// position: absolute;
+// left: 37.47%;
+// right: 61.31%;
+// top: 5.3%;
+// bottom: 94.42%;
+
+// background: #FFFFFF;
+
+
+// /* Path */
+
+// position: absolute;
+// left: 37.47%;
+// right: 62.39%;
+// top: 5.3%;
+// bottom: 94.62%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: 37.9%;
+// right: 61.96%;
+// top: 5.3%;
+// bottom: 94.62%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: 37.67%;
+// right: 61.31%;
+// top: 5.39%;
+// bottom: 94.42%;
+
+
+
+// /* Themes */
+
+// position: absolute;
+// left: 50.94%;
+// right: 33.44%;
+// top: 5.14%;
+// bottom: 94.26%;
+
+// box-shadow: 0px 22px 24px rgba(0, 0, 0, 0.1);
+
+
+// /* Rectangle Copy 3 */
+
+// position: absolute;
+// left: 50.94%;
+// right: 33.44%;
+// top: 5.14%;
+// bottom: 94.26%;
+
+// background: #2DD9D1;
+// border-radius: 3px;
+
+
+// /* Themes */
+
+// position: absolute;
+// height: 23px;
+// left: 57.66%;
+// right: 37.78%;
+// top: calc(50% - 23px/2 - 4456.5px);
+
+// font-family: SF UI Display;
+// font-style: normal;
+// font-weight: 600;
+// font-size: 19px;
+// line-height: 23px;
+// /* identical to box height */
+// text-align: center;
+// letter-spacing: 0.5px;
+
+// color: #FFFFFF;
+
+
+
+// /* Layout */
+
+// position: absolute;
+// left: 53.94%;
+// right: 43.94%;
+// top: 5.32%;
+// bottom: 94.43%;
+
+
+
+// /* Layer_1 */
+
+// position: absolute;
+// left: 53.94%;
+// right: 43.94%;
+// top: 5.32%;
+// bottom: 94.43%;
+
+
+
+// /* Layer_1_1_ */
+
+// position: absolute;
+// left: 53.94%;
+// right: 43.94%;
+// top: 5.32%;
+// bottom: 94.43%;
+
+
+
+// /* Shape */
+
+// position: absolute;
+// left: 54.56%;
+// right: 44.56%;
+// top: 5.32%;
+// bottom: 94.43%;
+
+// background: #FFFFFF;
+
+
+// /* Path */
+
+// position: absolute;
+// left: 54.56%;
+// right: 44.56%;
+// top: 5.32%;
+// bottom: 94.43%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: 54.69%;
+// right: 44.69%;
+// top: 5.34%;
+// bottom: 94.45%;
+
+
+
+// /* Shape */
+
+// position: absolute;
+// left: 55.56%;
+// right: 43.94%;
+// top: 5.35%;
+// bottom: 94.46%;
+
+// background: #FFFFFF;
+
+
+// /* Path */
+
+// position: absolute;
+// left: 55.56%;
+// right: 43.94%;
+// top: 5.35%;
+// bottom: 94.46%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: 55.69%;
+// right: 44.06%;
+// top: 5.37%;
+// bottom: 94.48%;
+
+
+
+// /* Shape */
+
+// position: absolute;
+// left: 53.94%;
+// right: 45.56%;
+// top: 5.35%;
+// bottom: 94.46%;
+
+// background: #FFFFFF;
+
+
+// /* Path */
+
+// position: absolute;
+// left: 53.94%;
+// right: 45.56%;
+// top: 5.35%;
+// bottom: 94.46%;
+
+
+
+// /* Path */
+
+// position: absolute;
+// left: 54.06%;
+// right: 45.69%;
+// top: 5.37%;
+// bottom: 94.48%;
+
+
+
+// /* Home Plugins Themes */
+
+// position: absolute;
+// left: 60.75%;
+// right: 11.75%;
+// top: 0.42%;
+// bottom: 99.39%;
+
+// font-family: SF UI Display;
+// font-style: normal;
+// font-weight: 500;
+// font-size: 15px;
+// line-height: 18px;
+
+// color: #FFFFFF;
+
+
+
+// /* Rectangle */
+
+// position: absolute;
+// left: 90.06%;
+// right: 1.81%;
+// top: 0.31%;
+// bottom: 99.28%;
+
+// border: 1px solid #FFFFFF;
+// box-sizing: border-box;
+// border-radius: 3px;
+
+
+// /* Account */
+
+// position: absolute;
+// left: 92.12%;
+// right: 3.81%;
+// top: 0.42%;
+// bottom: 99.39%;
+
+// font-family: SF UI Display;
+// font-style: normal;
+// font-weight: 500;
+// font-size: 15px;
+// line-height: 18px;
+
+// color: #FFFFFF;
+

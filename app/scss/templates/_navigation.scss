@@ -1,0 +1,19 @@
+.navbar{
+  .navbar-nav{
+    align-items: center;
+    .nav-item{
+      .nav-link{
+        padding: 0 15px;
+        color: $white;
+        font-size: 15px;
+        text-decoration: none;
+        font-family: $secondary-font;
+      }
+      .btn-account{
+        background: transparent;
+        border: 1px solid $white;
+        color: $white;
+      }
+    }
+  }
+}

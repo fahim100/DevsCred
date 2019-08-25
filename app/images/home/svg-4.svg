@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1602px" height="245px" viewBox="0 0 1602 245" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.70094242%" y1="49.4029947%" x2="98.5175899%" y2="50.9119761%" id="linearGradient-1">
+            <stop stop-color="#5D38F9" offset="0%"></stop>
+            <stop stop-color="#973FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.477585565">
+        <g id="Group-7" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M0.40625,1.13686838e-13 L0,25 C94.6750723,87.6666667 175.008406,119 241,119 C426.740386,119 442.982726,189 572,194 C701.017274,199 690.718446,245 862,245 C1033.28155,245 1158.93103,65.0195313 1322.42706,99.0195313 C1431.42441,121.686198 1524.61539,97.0130208 1602,25 L1602,1.13686838e-13 L0.40625,1.13686838e-13 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

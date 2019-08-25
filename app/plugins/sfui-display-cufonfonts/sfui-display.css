@@ -1,0 +1,31 @@
+/* @font-face {
+  font-family: 'SfuiDisplay-Bold';
+  src: 
+  url('sf-ui-display-bold-58646a511e3d9.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SfuiDisplay-SemiBold';
+  src: 
+  url('sf-ui-display-semibold-58646eddcae92.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SfuiDisplay-Medium';
+  src: 
+  url('sf-ui-display-medium-58646be638f96.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'SfuiDisplay-Regular';
+  src: 
+  url('SF-UI-Display-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
