@@ -5,6 +5,7 @@
   // background: linear-gradient(-140.72deg, #5D38F9 10.81%, #973FFF 94.71%);
   // background: linear-gradient(223.16deg, #5D38F9 16.69%, #835DFF 86.93%);
   background: linear-gradient(223.16deg, rgba(89, 56, 249, 0.96) 16.69%, rgba(131, 93, 255, 0.96) 86.93%);
+  // background: rgba(95, 64, 249,.5);
   .hero-background-pattern{
     position: absolute;
     top: 50%;
@@ -78,8 +79,9 @@
       position: absolute;
       top: 0;
       left: 0;
+      transform: rotate(180deg);
       // path{
-      //   fill: #FFFFFF;
+      //   fill: #5F40F9;
       //   opacity: .5;
       // }
     }
